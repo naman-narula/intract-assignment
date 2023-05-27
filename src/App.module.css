@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.background {
+  min-height: 100vh;
+
+  background-image: radial-gradient(circle at 5% 100%, #0f3466 30%, transparent 50%),
+    radial-gradient(circle at 95% 100%, #3a2763 30%, transparent 50%);
+  background-color: #0f1115;
+}
+
+.top-matrix-image {
+  text-align: center;
+
+  position: relative;
+  bottom: 55px;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  margin: auto 25vw 0;
+  text-align: center;
+
+  font-size: 3.75rem;
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+}
+
+.sub-header-container {
+  color: #c6c9d2;
+
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 1.125rem;
+
+  width: fit-content;
+  margin: 16px 30vw;
+
+  text-align: center;
+}
+
+.theme-gradient,
+.btn:hover {
+  background-image: linear-gradient(45deg, #2e85fe, #b897fe);
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.image-overlay-container {
+  position: relative;
+
+  text-align: center;
+
+  padding-bottom: 16px;
+}
+
+.product-image {
+  position: relative;
+
+  padding-top: 11rem;
+
+  z-index: 2;
+}
+
+.bottom-matrix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 65vw;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: fit-content;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+
+.button-container button {
+  margin-right: 16px;
+}
+
+.img-btn {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.top-matrix-image img,
+.bottom-matrix img,
+.product-image img {
+  height: auto;
+  max-width: 100%;
+}

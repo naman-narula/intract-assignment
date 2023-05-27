@@ -1,0 +1,48 @@
+img {
+  vertical-align: middle;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 2;
+  background-color: #0f1115;
+}
+
+.branding,
+.right-container {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.branding {
+  justify-content: space-evenly;
+  width: 7vw;
+  margin-left: 36px;
+}
+
+.branding img {
+  object-fit: contain;
+}
+
+.img-btn {
+  margin-left: 8px;
+}
+
+.right-container {
+  justify-content: center;
+  width: 22vw;
+  margin-right: 36px;
+}
+.right-container button {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.right-container button:last-child {
+  margin-right: 0;
+}
+
+.padding {
+  padding: 15px;
+}
